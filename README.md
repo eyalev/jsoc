@@ -3,17 +3,17 @@
 
 JSON with comments
 
-# Why
+## Why
 
 Demand [exists](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json) for a file format which is strict as JSON but include comments.
 
-# Spec
+## Spec
 
 Same as JSON, with comments.
 
 You're welcome :)
 
-# Example
+## Example
 
 ```yaml
 
