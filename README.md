@@ -65,7 +65,8 @@ import json
 from pathlib import Path
 
 text = Path('sample.jsoc.yaml').read_text()
-print(json.dumps(yaml.safe_load(text), indent=4))
+jsoc = yaml.safe_load(text)  # Comments are not parsed
+print(json.dumps(jsoc, indent=4))
 
 ````
 
