@@ -15,7 +15,7 @@ You're welcome :)
 
 # Example
 
-````
+```yaml
 
 # Based on JSON sample from: https://en.wikipedia.org/wiki/JSON#JSON_sample
 
@@ -48,7 +48,7 @@ You're welcome :)
 }
 # Comment D
 
-````
+```
 
 ## Implementation
 
@@ -56,7 +56,7 @@ Until we have a vibrant community and abundant libraries, the spec can be implem
 
 ### Python
 
-````
+```python
 # Python 3
 # Live example: https://repl.it/repls/JubilantTestyModularity
 
@@ -68,11 +68,11 @@ text = Path('sample.jsoc.yaml').read_text()
 jsoc = yaml.safe_load(text)  # Comments are not parsed
 print(json.dumps(jsoc, indent=4))
 
-````
+```
 
 Output:
 
-````
+```json
 
 {
     "first_name": "John",
@@ -100,6 +100,6 @@ Output:
     "human": true
 }
 
-````
+```
 
 
