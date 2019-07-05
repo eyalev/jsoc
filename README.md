@@ -20,31 +20,31 @@ You're welcome :)
 # Based on JSON sample from: https://en.wikipedia.org/wiki/JSON#JSON_sample
 
 {
-  # Comment A
-  "first_name": "John",
-  "last_name": "Smith",
-  "age": 25, # Comment B
-  "address": {
-    "street_address": "21 2nd Street",
-    "city": "New York",
-    "state": "NY",
-    "postal_code": "10021"
-  },
-  # Comment C
-  "phone_number": [
-    {
-      "type": "home",
-      "number": "212 555-1234"
+    # Comment A
+    "first_name": "John",
+    "last_name": "Smith",
+    "age": 25, # Comment B
+    "address": {
+        "street_address": "21 2nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10021"
     },
-    {
-      "type": "fax",
-      "number": "646 555-4567"
-    }
-  ],
-  "gender": {
-    "type": "male"
-  },
-  "human": true
+    # Comment C
+    "phone_number": [
+        {
+            "type": "home",
+            "number": "212 555-1234"
+        },
+        {
+            "type": "fax",
+            "number": "646 555-4567"
+        }
+    ],
+    "gender": {
+        "type": "male"
+    },
+    "human": true
 }
 # Comment D
 
