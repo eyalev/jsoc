@@ -9,7 +9,7 @@ Demand [exists](https://stackoverflow.com/questions/244777/can-comments-be-used-
 
 ## Spec
 
-Same as JSON, with comments.
+Same as JSON, with hash-symbol (`#`) comments.
 
 You're welcome :)
 
