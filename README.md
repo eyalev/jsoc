@@ -5,7 +5,7 @@ JSON with comments
 
 ## Why
 
-Demand [exists](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json) for a file format which is strict as JSON but include comments.
+Demand [exists](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json) for a file format which is strict as JSON but includes comments.
 
 ## Spec
 
